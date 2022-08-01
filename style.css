@@ -24,8 +24,14 @@ nav {
 }
 #navMid div h4 {
   font-size: 22px;
-
   margin: 0 40px;
+  cursor: pointer;
+}
+#navMid div h4:hover{
+  padding: 2px;
+  background-color: #466d50;
+  color: #fff;
+  font-size: 25px;
 }
 #navFirst > img {
   height: 40px;
@@ -39,7 +45,7 @@ nav {
 }
 
 #midWhole {
-  margin-top: 100px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   margin-left: 50px;
@@ -84,7 +90,7 @@ div ul li:nth-child(4) {
   background-color: #466d50;
 }
 #midWholePart13 {
-   margin-left: -46px; 
+  margin-left: -46px;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
