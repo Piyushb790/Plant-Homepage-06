@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Squada+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat";
+  background-color: #f4f3f8;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+
+  align-items: center;
+}
+#navMid {
+  display: flex;
+  justify-content: center;
+}
+#navMid div h4 {
+  font-size: 22px;
+
+  margin: 0 40px;
+}
+#navFirst > img {
+  height: 40px;
+}
+#navEnd {
+  display: flex;
+}
+#navEnd > div > img {
+  margin: 0px 15px;
+  height: 30px;
+}
+
+#midWhole {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+li {
+  list-style-type: none;
+  font-family: "Montserrat";
+}
+#monstera {
+  margin: 5px 5px;
+  font-size: 100px;
+  font-family: "Montserrat";
+}
+div ul li:nth-child(3) {
+  margin: 30px 5px;
+  width: 450px;
+}
+div ul li:nth-child(4) {
+  margin: 0px 5px;
+  width: 450px;
+}
+#midWholePart12 {
+  margin-top: 50px;
+}
+#midWholePart121 {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
+  align-items: center;
+  background-color: #466d50;
+  border-radius: 28px;
+  width: 250px;
+}
+#midWholePart121 > div > h1 {
+  color: #fff;
+  font-weight: lighter;
+  background-color: #466d50;
+  padding-right: 10px;
+}
+
+#midWholePart122 > img {
+  background-color: #466d50;
+}
+#midWholePart13 {
+   margin-left: -46px; 
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.midWholePart13Parts {
+  margin: 5px 50px;
+  display: flex;
+  font-size: 13px;
+  font-family: "Montserrat";
+}
+.midWholePart13Parts > div > h4 {
+  font-size: 27px;
+}
+p {
+  font-family: "Monserrat";
+}
+
+#imgMain > img {
+  height: 657px;
+}
+
+#feeding {
+  height: 55px;
+}
+#care {
+  height: 55px;
+}
+#light {
+  height: 55px;
+}
