@@ -6,11 +6,15 @@
   font-family: "Montserrat";
   background-color: #f4f3f8;
 }
+
 body {
   height: 100vh;
   width: 100%;
 }
 
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
 nav {
   display: flex;
   justify-content: space-around;
@@ -18,58 +22,72 @@ nav {
 
   align-items: center;
 }
+
 #navMid {
   display: flex;
   justify-content: center;
 }
+
 #navMid div h4 {
   font-size: 22px;
   margin: 0 40px;
   cursor: pointer;
 }
-#navMid div h4:hover{
+
+#navMid div h4:hover {
   padding: 2px;
   background-color: #466d50;
   color: #fff;
   font-size: 25px;
 }
-#navFirst > img {
+
+#navFirst img {
   height: 40px;
 }
+
 #navEnd {
   display: flex;
 }
-#navEnd > div > img {
+
+#navEnd div img {
   margin: 0px 15px;
   height: 30px;
 }
 
+li {
+  list-style-type: none;
+  font-family: "Montserrat";
+}
+
+div ul li:nth-child(3) {
+  margin: 30px 5px;
+  width: 450px;
+}
+
+div ul li:nth-child(4) {
+  margin: 0px 5px;
+  width: 450px;
+}
+/* ------------------------------ */
+/* ---------- left section ------------ */
+/* ------------------------------ */
 #midWhole {
   margin-top: 20px;
   display: flex;
   align-items: center;
   margin-left: 50px;
 }
-li {
-  list-style-type: none;
-  font-family: "Montserrat";
-}
+
 #monstera {
   margin: 5px 5px;
   font-size: 100px;
   font-family: "Montserrat";
 }
-div ul li:nth-child(3) {
-  margin: 30px 5px;
-  width: 450px;
-}
-div ul li:nth-child(4) {
-  margin: 0px 5px;
-  width: 450px;
-}
+
 #midWholePart12 {
   margin-top: 50px;
 }
+
 #midWholePart121 {
   display: flex;
   justify-content: center;
@@ -79,45 +97,54 @@ div ul li:nth-child(4) {
   border-radius: 28px;
   width: 250px;
 }
-#midWholePart121 > div > h1 {
+
+#midWholePart121 div h1 {
   color: #fff;
   font-weight: lighter;
   background-color: #466d50;
   padding-right: 10px;
 }
 
-#midWholePart122 > img {
+#midWholePart122 img {
   background-color: #466d50;
 }
+
 #midWholePart13 {
   margin-left: -46px;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
 }
+
 .midWholePart13Parts {
   margin: 5px 50px;
   display: flex;
   font-size: 13px;
   font-family: "Montserrat";
 }
-.midWholePart13Parts > div > h4 {
+
+.midWholePart13Parts div h4 {
   font-size: 27px;
 }
-p {
-  font-family: "Monserrat";
-}
-
-#imgMain > img {
-  height: 657px;
-}
-
 #feeding {
   height: 55px;
 }
+
 #care {
   height: 55px;
 }
+
 #light {
   height: 55px;
 }
+
+p {
+  font-family: "Monserrat";
+}
+/* ------------------------------ */
+/* ---------- right section ------------ */
+/* ------------------------------ */
+#imgMain img {
+  height: 657px;
+}
+
